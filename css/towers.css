@@ -1,0 +1,426 @@
+.top {
+    padding: 20px 0 20px 0;
+    background: #a5d0fd;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.texto .titulo {
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid white;
+    padding: 5px 5px 5px 5px;
+    background: #79a7d3;
+    margin-top: 5px;
+    transition: all 0.3s;
+}
+
+.texto .titulo:hover {
+    transform: scale(1.025);
+    cursor: pointer;
+}
+
+.mid {
+    background-color: #a5d0fd;
+    color: white;
+    padding: 20px 0 20px 0;
+}
+
+.mid1 {
+    background-color: #a5d0fd;
+    color: white;
+    padding: 20px 0 20px 0;
+}
+
+.mid2 {
+    background-color: #a5d0fd;
+    color: white;
+    padding: 20px 0 20px 0;
+}
+
+.mid3 {
+    background-color: #a5d0fd;
+    color: white;
+    padding: 20px 0 20px 0;
+}
+
+.titleclasses {
+    padding: 10px 0 30px 0;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-weight: 500 bold;
+    font-size: 30px;
+}
+
+.colorclasses {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15));
+    border: 1px solid white;
+}
+
+.about {
+    margin-right: 10px;
+}
+
+th {
+    border: 1px solid white;
+    font-size: 25px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0 15px 0;
+}
+
+td {
+    border: 1px solid white;
+    padding: 0px;
+}
+
+.monkeys {
+    width: 25%;
+    padding: 15px 0px 15px 15px;
+    margin-left: 20px;
+    transition: all 0.3s;
+    height: 25%;
+}
+
+.monkeys:hover {
+    transform: scale(1.08);
+}
+
+.monkeyname {
+    font-weight: bold;
+}
+
+.lineone {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    text-align: center;
+    width: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15));
+}
+
+.lineone p {
+    margin-top: 35px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.linetwo {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15));
+    padding: 0 7px 0 7px;
+}
+
+.linethree {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15));
+}
+
+/* Responsive Tablet */
+@media (max-width: 768px) {
+    .lineone {
+        display: flex;
+        align-items: left;
+        justify-content: left;
+        text-align: center;
+        width: 190px;
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15));
+    }
+
+    .linetwo {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 370px;
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15));
+        padding: 0 7px 0 7px;
+    }
+
+    .linethree {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 190px;
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15));
+    }
+
+    .monkeys {
+        width: 35%;
+        padding: 10px 0 10px 0;
+        margin-left: 20px;
+        transition: all 0.3s;
+        height: 35%;
+    }
+
+    .lineone p {
+        margin-top: 16px;
+        margin-left: 6px;
+        font-weight: 600;
+    }
+
+    #heli {
+        margin-left: 24px;
+        margin-top: 34px;
+    }
+
+    #alchemist {
+        padding: 20px 10px 10px 0;
+    }
+
+    #druid {
+        padding: 5px 10px 10px 23px;
+    }
+
+    #ice {
+        margin-top: 34px;
+    }
+}
+
+/* Responsivo Celular Largo */
+@media (max-width: 425px) {
+    .lineone {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+        width: 100px;
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15));
+    }
+
+    .linetwo {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 200px;
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15));
+        padding: 0 7px 0 7px;
+    }
+
+    .linethree {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100px;
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15));
+    }
+
+    .monkeys {
+        width: 70%;
+        margin: 0 0 0 16px;
+        align-items: center;
+        transition: all 0.3s;
+        height: 70%;
+    }
+
+    .lineone p {
+        text-align: center;
+        font-weight: 600;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+
+    #heli {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    #alchemist {
+        padding: 0;
+    }
+
+    #druid {
+        padding: 0;
+    }
+
+    #bomb {
+        padding-top: 25px;
+    }
+
+    #ice {
+        margin-top: 0;
+    }
+
+    .texto .titulo {
+        width: 300px;
+    }
+}
+
+/* Responsivo pro celular do Enzo :) */
+@media (max-width: 384px) {
+    #druid {
+        padding-top: 17px;
+    }
+}
+
+/* Responsive Celular Médio */
+@media (max-width: 375px) {
+    #druid1 {
+        padding-top: 25px;
+    }
+
+    #druid {
+        padding-bottom: 20px;
+    }
+
+    #alchemist {
+        padding-top: 23px;
+    }
+
+    #bomb {
+        padding-top: 13px;
+    }
+
+    #boomerang {
+        padding-top: 27px;
+    }
+
+    .lineone p {
+        font-size: 16px;
+    }
+}
+
+/* Responsive Celular Pequeno */
+@media (max-width: 320px) {
+    #druid {
+        padding: 0 0 39px 0;
+    }
+
+    #druid1 {
+        padding-top: 39px;
+    }
+
+    #alchemist {
+        padding-top: 38px;
+    }
+
+    #alchemist-txt {
+        padding-bottom: 35px;
+    }
+
+    #bomb {
+        padding-top: 49px;
+    }
+
+    #bombtext {
+        padding-bottom: 35px;
+    }
+
+    #boomerang {
+        padding-top: 47px;
+    }
+
+    #dart {
+        padding-top: 27px;
+    }
+
+    #dart-txt {
+        padding-bottom: 26px;
+    }
+
+    #boomerangtext {
+        padding-bottom: 30px;
+    }
+
+    #ice1 {
+        padding-top: 30px;
+    }
+
+    #ice {
+        padding-bottom: 25px;
+    }
+
+    #sub {
+        padding-top: 30px;
+    }
+
+    #sub-txt {
+        padding-bottom: 20px;
+    }
+
+    #ace {
+        padding-top: 30px;
+    }
+
+    #ace-txt {
+        padding-bottom: 20px;
+    }
+
+    #heli1 {
+        padding-top: 25px;
+    }
+
+    #heli {
+        padding-bottom: 23px;
+    }
+
+    #mortar {
+        padding-top: 25px;
+    }
+
+    #mortar-txt {
+        padding-bottom: 20px;
+    }
+
+    #dartling {
+        padding-top: 25px;
+    }
+
+    #dartling-txt {
+        padding-bottom: 20px;
+    }
+
+    #ninja {
+        padding-top: 30px;
+    }
+
+    #ninja-txt {
+        padding-bottom: 25px;
+    }
+
+    #villa {
+        padding-top: 30px;
+    }
+
+    #villa-txt {
+        padding-bottom: 25px;
+    }
+
+    #engineer {
+        padding-top: 33px;
+    }
+
+    #engineer-txt {
+        padding-bottom: 29px;
+    }
+
+    #beast {
+        padding-top: 33px;
+    }
+
+    #beast-txt {
+        padding-bottom: 29px;
+    }
+
+    .lineone p {
+        font-size: 16px;
+    }
+}

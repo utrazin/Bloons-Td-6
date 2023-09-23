@@ -1,0 +1,234 @@
+.top {
+    padding: 20px 0 20px 0;
+    background: #a5d0fd;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.texto .titulo {
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid white;
+    padding: 5px 5px 5px 5px;
+    background: #79a7d3;
+    margin-top: 5px;
+    transition: all 0.3s;
+}
+
+.texto .titulo:hover {
+    transform: scale(1.025);
+    cursor: pointer;
+}
+
+.texto1 .titulo1 {
+    color: white;
+    font-size: 38px;
+    font-weight: 600 bold;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: underline;
+    border: 1px solid white;
+    padding: 3px 6px 3px 6px;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15));
+    transition: all 0.3s;
+}
+
+.texto1 .titulo1:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.tableclass {
+    background-color: #a5d0fd;
+    font-weight: bold;
+    color: white;
+    font-size: 23px;
+}
+
+.tableclass table {
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+}
+
+.tableclass table .heroespng {
+    width: 300px;
+    padding: 0 0 0 0;
+    transition: 0.3s all ease;
+}
+
+.tableclass table .heroespng:hover {
+    width: 300px;
+    padding: 0 35px 0 0;
+    transform: scale(1.1);
+}
+
+.tableclass table .heroestxtx {
+    width: 400px;
+    text-align: center;
+    padding: 0 35px 0 35px;
+}
+
+.tableclass table .heroesaudios {
+    width: 300px;
+    padding: 0 0 0 35px;
+}
+
+/* Responsivo Tablet */
+@media (max-width: 768px) {
+    .linha {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .tableclass table .heroespng {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tableclass table .heroespng:hover {
+        transform: scale(1.05);
+    }
+
+    .tableclass table .heroestxtx {
+        width: 600px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .tableclass table .heroestxtx {
+        padding: 20px 0 15px 0;
+    }
+
+    .tableclass table .heroesaudios {
+        width: 300px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        margin-bottom: 50px;
+    }
+}
+
+/* Responsivo Celular Largo */
+@media (max-width: 425px) {
+    .linha {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .tableclass table .heroespng {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+
+    .tableclass table .heroespng:hover {
+        transform: scale(1.05);
+    }
+
+    .tableclass table .heroestxtx {
+        width: 300px;
+        text-align: center;
+        padding: 20px 0 15px 0;
+    }
+
+    .tableclass table .heroesaudios {
+        width: 300px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        margin-bottom: 40px;
+    }
+
+    .texto .titulo {
+        width: 300px;
+    }
+}
+
+/* Responsivo pro celular do Enzo :) */
+@media (max-width: 384px) {
+    .linha {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .tableclass table .heroespng {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+
+    .tableclass table .heroespng:hover {
+        transform: scale(1.05);
+    }
+
+    .tableclass table .heroestxtx {
+        width: 364px;
+        text-align: center;
+        padding: 20px 0 15px 0;
+    }
+
+    .tableclass table .heroesaudios {
+        width: 300px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        margin-bottom: 40px;
+    }
+
+    .texto .titulo {
+        width: 300px;
+    }
+}
+
+/* Responsivo Celular Pequeno */
+@media (max-width: 320px) {
+    .linha {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .tableclass table .heroespng {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+
+    .tableclass table .heroespng:hover {
+        transform: scale(1.05);
+    }
+
+    .tableclass table .heroestxtx {
+        width: 310px;
+        text-align: center;
+        padding: 20px 0 15px 0;
+    }
+
+    .tableclass table .heroesaudios {
+        width: 300px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        margin-bottom: 40px;
+    }
+
+    .texto .titulo {
+        width: 300px;
+    }
+}

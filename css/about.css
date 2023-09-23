@@ -1,0 +1,200 @@
+.tableclass {
+    background-color: #a5d0fd;
+    padding-bottom: 35px;
+}
+
+.tableclass table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tableclass table .first {
+    width: 300px;
+    padding: 0 30px 0 0;
+}
+
+.tableclass table .second {
+    width: 400px;
+    padding: 0 0 0 30px;
+}
+
+.tableclass img {
+    border-radius: 20px;
+}
+
+.tableclass td {
+    padding: 0 10px 50px 10px;
+    text-align: center;
+}
+
+.tableclass p {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.tableclass .titulo1 {
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 30px;
+    padding: 20px 0 30px 0;
+}
+
+.tableclass .titulo1 h1:hover {
+    transform: scale(1.025);
+    cursor: pointer;
+}
+
+/* Responsivo Tablet */
+@media (max-width: 768px) {
+    .linha {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .first img {
+        margin: 0px 0px 30px 118px;
+        border-radius: 4%;
+    }
+
+    .second img {
+        margin: 0px 0px 20px 88px;
+        border-radius: 4%;
+    }
+    .tableclass .text p {
+        padding: 0 50px 0 50px;
+    }
+}
+
+/* Responsivo Celular Largo */
+@media (max-width: 425px) {
+    .linha {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    .first img {
+        display: flex;
+        margin: 20px 0 0 20px;
+        width: 380px;
+        height: 230px;
+        border-radius: 4%;
+    }
+
+    .second img {
+        display: flex;
+        margin: 20px 0 0 20px;
+        width: 380px;
+        height: 230px;
+        border-radius: 4%;
+    }
+
+    .tableclass td {
+        padding: 20px 0 20px 0;
+        text-align: center;
+    }
+
+    .tableclass table .first {
+        width: 300px;
+        padding: 0;
+    }
+
+    .tableclass table .second {
+        width: 300px;
+        padding: 0;
+    }
+    .tableclass .text p {
+        padding: 0 25px 0 25px;
+    }
+}
+
+/* Responsivo pro celular da Mãe :) */
+@media (max-width: 402px) {
+    .first img {
+        display: flex;
+        margin: 20px 0 0 28px;
+        width: 340px;
+        border-radius: 4%;
+    }
+
+    .second img {
+        display: flex;
+        margin: 20px 0 0 28px;
+        width: 340px;
+        border-radius: 4%;
+    }
+}
+
+/* Responsivo pro celular do Enzo :) */
+@media (max-width: 384px) {
+    .first img {
+        display: flex;
+        margin: 20px 0 0 19px;
+        width: 340px;
+        height: 200px;
+        border-radius: 4%;
+    }
+
+    .second img {
+        display: flex;
+        margin: 20px 0 0 19px;
+        width: 340px;
+        height: 200px;
+        border-radius: 4%;
+    }
+
+    .tableclass table .first {
+        width: 300px;
+        padding: 0;
+    }
+
+    .tableclass table .second {
+        width: 300px;
+        padding: 0;
+    }
+}
+
+/* Responsivo Celular Médio */
+@media (max-width: 375px) {
+    .first img {
+        display: flex;
+        margin: 20px 0 0 15px;
+        width: 340px;
+        border-radius: 4%;
+    }
+
+    .second img {
+        display: flex;
+        margin: 20px 0 0 15px;
+        width: 340px;
+        border-radius: 4%;
+    }
+}
+
+/* Responsivo Celular Pequeno */
+@media (max-width: 320px) {
+    .first img {
+        display: flex;
+        margin: 20px 0 0 7px;
+        width: 300px;
+        height: 180px;
+        border-radius: 4%;
+    }
+
+    .second img {
+        display: flex;
+        margin: 20px 0 0 7px;
+        width: 300px;
+        height: 180px;
+        border-radius: 4%;
+    }
+    .tableclass .text p {
+        padding: 0 25px 0 25px;
+        text-align: center;
+    }
+}

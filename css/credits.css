@@ -1,0 +1,380 @@
+.top {
+    padding: 45px 0 0 0;
+    background: #a5d0fd;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .texto .titulo {
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid white;
+    padding: 5px 5px 5px 5px;
+    background: #79a7d3;
+    margin-top: 5px;
+    transition: all 0.3s;
+  }
+  
+  .texto .titulo:hover {
+    transform: scale(1.025);
+    cursor: pointer;
+  }
+  
+  .mid {
+    background-color: #a5d0fd;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .mid p {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 30px 150px 20px 150px;
+    font-size: 20px;
+  }
+  
+  .mid1 {
+    background-color: #a5d0fd;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 0 45px 0;
+  }
+  
+  .mid1 iframe {
+    border-radius: 30px;
+  }
+  
+  .mid2 {
+    background-color: #a5d0fd;
+  }
+  
+  .mid2 table {
+    margin: auto;
+    padding: 30px 0;
+    color: white;
+  }
+  
+  .mid2 table td {
+    padding: 0 30px;
+  }
+  
+  .mid2 p {
+    padding: 10px 0 10px 0;
+    font-size: 25px;
+  }
+  
+  .mid2 .bio {
+    text-align: left;
+  }
+  
+  .mid2 table .lineimage {
+    width: 350px;
+  }
+  
+  .mid2 table .linetext {
+    width: 700px;
+  }
+  
+  .mid2 img {
+    border: 1px white solid;
+    border-radius: 5%;
+  }
+  
+  .social-links a {
+    padding-top: 10px;
+  }
+  
+  /* Responsive Altura*/
+  @media screen and (min-height: 920px) {
+    .mid1 {
+      background-color: #a5d0fd;
+      color: white;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 140px 0 140px 0;
+    }
+  
+    .mid2 {
+      background-color: #a5d0fd;
+      padding: 140px 0 140px 0;
+    }
+  }
+  
+  @media screen and (min-height: 1170px) {
+    .mid1 {
+      background-color: #a5d0fd;
+      color: white;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .mid2 {
+      background-color: #a5d0fd;
+    }
+  
+    .mid {
+      background-color: #a5d0fd;
+      color: white;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding-bottom: 100px;
+    }
+  
+    .mid p {
+      margin-right: auto;
+      margin-left: auto;
+      padding: 130px 150px 20px 150px;
+      font-size: 50px;
+      width: 1500px;
+    }
+  
+    .texto .titulo {
+      color: white;
+      font-size: 70px;
+      font-weight: 500;
+      margin-right: auto;
+      margin-left: auto;
+      border: 1px solid white;
+      padding: 5px 5px 5px 5px;
+      background: #79a7d3;
+      margin-top: 5px;
+      transition: all 0.3s;
+    }
+  
+    .mid2 img {
+      border: 1px white solid;
+      border-radius: 5%;
+      width: 700px;
+      height: 700px;
+    }
+  
+    .mid2 table .linetext {
+      width: 1350px;
+    }
+  
+    .mid2 p {
+      font-size: 50px;
+    }
+  
+    .mid1 iframe {
+      width: 2000px;
+      height: 1350px;
+    }
+  }
+  
+  /* Responsivo Tablet */
+  @media (max-width: 768px) {
+    .mid p {
+      width: 600px;
+      padding: 30px 0 0 0;
+    }
+  
+    .mid1 iframe {
+      width: 690px;
+      height: 432px;
+      border-radius: 3%;
+    }
+  
+    .mid2 table .linetext {
+      width: 430px;
+    }
+  
+    .mid2 p {
+      font-size: 20px;
+      text-align: left;
+    }
+  
+    .mid2 img {
+      border: 1px white solid;
+      border-radius: 5%;
+      width: 300px;
+      height: 300px;
+    }
+  }
+  
+  /* Responsivo Celular Largo */
+  @media (max-width: 425px) {
+    .mid1 iframe {
+      width: 400px;
+      height: 250px;
+      border-radius: 3%;
+    }
+  
+    .mid2 table .linetext {
+      width: 400px;
+    }
+  
+    .mid2 p {
+      font-size: 20px;
+      text-align: center;
+    }
+  
+    .mid2 .bio {
+      text-align: center;
+      padding: 30px 0 20px 0;
+    }
+  
+    .mid2 img {
+      border: 1px white solid;
+      border-radius: 5%;
+      width: 300px;
+      height: 300px;
+      margin-left: 22px;
+    }
+  
+    .linha {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      width: 400px;
+    }
+  
+    .mid p {
+      padding: 20px 0 0 0;
+      width: 400px;
+    }
+  }
+  
+  /* Responsivo pro celular da Mãe :) */
+  @media (max-width: 402px) {
+    .mid1 iframe {
+      width: 390px;
+      height: 240px;
+    }
+  
+    .mid p {
+      padding: 20px 0 0 0;
+      width: 380px;
+    }
+  
+    .linha {
+      width: 380px;
+    }
+  
+    .mid2 table .linetext {
+      width: 380px;
+    }
+  }
+  
+  /* Responsivo pro celular do Pai :) */
+  @media (max-width: 402px) {
+    .mid2 img {
+      margin-left: 11px;
+    }
+  
+  
+    /* Responsivo pro celular do Enzo :) */
+    @media (max-width: 384px) {
+      .mid1 iframe {
+        width: 380px;
+      }
+    }
+  
+    /* Responsivo Celular Médio */
+    @media (max-width: 375px) {
+      .mid1 iframe {
+        width: 360px;
+        height: 230px;
+        border-radius: 3%;
+      }
+  
+      .mid2 table .linetext {
+        width: 350px;
+      }
+  
+      .mid2 p {
+        font-size: 20px;
+        text-align: center;
+      }
+  
+      .mid2 .bio {
+        text-align: center;
+        padding: 30px 0 20px 0;
+      }
+  
+      .mid2 img {
+        border: 1px white solid;
+        border-radius: 5%;
+        width: 300px;
+        height: 300px;
+        margin-left: 0px;
+      }
+  
+      .linha {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 350px;
+      }
+  
+      .mid p {
+        padding: 20px 0 0 0;
+        width: 350px;
+      }
+    }
+  
+    /* Responsivo Celular Pequeno */
+    @media (max-width: 320px) {
+      .mid1 iframe {
+        width: 315px;
+        height: 195px;
+        border-radius: 3%;
+      }
+  
+      .mid2 table .linetext {
+        width: 300px;
+      }
+  
+      .mid2 p {
+        font-size: 20px;
+        text-align: center;
+      }
+  
+      .mid2 .bio {
+        text-align: center;
+        padding: 30px 0 20px 0;
+      }
+  
+      .mid2 img {
+        border: 1px white solid;
+        border-radius: 5%;
+        width: 300px;
+        height: 300px;
+        margin: 0;
+      }
+  
+      .linha {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 300px;
+      }
+  
+      .mid p {
+        padding: 20px 0 0 0;
+        width: 300px;
+      }
+  
+      .mid2 table td {
+        padding: 0 0;
+      }
+  
+      .mid2 table .lineimage {
+        width: 300px;
+      }
+    }
